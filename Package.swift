@@ -25,7 +25,7 @@ let package = Package(
                 .product(name: "AWSS3", package: "aws-sdk-ios-spm"),
                 .product(name: "AWSCognitoIdentityProvider", package: "aws-sdk-ios-spm"),
                 .product(name: "CardStack", package: "CardStack"),
-                .product(name: "SegmentedPicker", package: "SwiftySegmentedPicker"),
+                .product(name: "SegmentedPicker", package: "SegmentedPicker"),
             ],
             path: "Sources/KubraWalletTargets"
         ),
