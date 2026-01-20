@@ -31,8 +31,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "KubraWallet",
-            url: "https://ios-compiled-sdk-frameworks.s3.us-west-2.amazonaws.com/version/1.4.0/KubraWallet.zip",
-            checksum: "9e944503c7751b4e5897c347925b883220db7f6f99749adb75af92f8e95749a7"
+            url: "https://ios-compiled-sdk-frameworks.s3.us-west-2.amazonaws.com/version/1.4.1/KubraWallet.zip",
+            checksum: "a6ffcd2dd47081257087d49b808ebb7cff316f9344cf27066af808d2b58c06a0"
         )
     ]
 )
