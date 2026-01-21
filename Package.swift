@@ -14,8 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/aws-amplify/aws-sdk-ios-spm.git", from: "2.36.0"),
-        .package(url: "https://github.com/barenddev/CardStack.git", from: "1.0.0"),
-        .package(url: "https://github.com/barenddev/SwiftySegmentedPicker.git", from: "1.0.0"),
+        // CardStack and SegmentedPicker are now vendored directly in the xcframework
     ],
     targets: [
         .target(
@@ -24,8 +23,6 @@ let package = Package(
                 "KubraWallet",
                 .product(name: "AWSS3", package: "aws-sdk-ios-spm"),
                 .product(name: "AWSCognitoIdentityProvider", package: "aws-sdk-ios-spm"),
-                .product(name: "CardStack", package: "CardStack"),
-                .product(name: "SegmentedPicker", package: "SwiftySegmentedPicker"),
             ],
             path: "Sources/KubraWalletTargets"
         ),
