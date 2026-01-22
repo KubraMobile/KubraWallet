@@ -23,16 +23,28 @@ Or add to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/KubraMobile/KubraWallet.git", from: "1.0.0")
+    .package(url: "https://github.com/KubraMobile/KubraWallet.git", from: "1.10.0")
 ]
 ```
 
 ### CocoaPods
 
-Add to your Podfile:
+Add the KUBRA Wallet Podspec Repo to your Podfile:
+
+```ruby
+source 'https://github.com/KubraMobile/MobilePodspecs'
+```
+
+Add the Pod to your Podfile:
 
 ```ruby
 pod 'KubraWallet'
+```
+
+Run the installation via the terminal:
+
+```bash
+pod install
 ```
 
 ## Usage
