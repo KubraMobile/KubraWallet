@@ -26,10 +26,12 @@ let package = Package(
             ],
             path: "Sources/KubraWalletTargets"
         ),
+        // SPM support begins with version 1.10.0
+        // This URL will be updated by CI when 1.10.0 is released
         .binaryTarget(
             name: "KubraWallet",
-            url: "https://ios-compiled-sdk-frameworks.s3.us-west-2.amazonaws.com/version/1.9.0/KubraWallet.zip",
-            checksum: "b2aed20598487ae82dd97efcb50362aa8b080509b4e4fac57678ac6e3d82d50f"
+            url: "https://ios-compiled-sdk-frameworks.s3.us-west-2.amazonaws.com/version/1.10.0/KubraWallet.zip",
+            checksum: "0000000000000000000000000000000000000000000000000000000000000000"
         )
     ]
 )
